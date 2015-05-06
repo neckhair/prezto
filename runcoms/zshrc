@@ -10,4 +10,16 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 fi
 
-# Customize to your needs...
+# aliases
+alias zshconfig="$EDITOR ~/.zshrc"
+alias vimconfig="$EDITOR ~/.vimrc"
+alias tlf="tail -f"
+alias mkdir='mkdir -p'
+alias l='ls'
+alias ll='ls -al'
+alias lh='ls -Alh'
+
+alias sourcetree='open -a SourceTree'
+alias rrg='rake routes | grep'
+
+function psgrep() { ps axu | grep -v grep | grep "$@" -i --color=auto; }
