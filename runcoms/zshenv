@@ -10,4 +10,7 @@ if [[ "$SHLVL" -eq 1 && ! -o LOGIN && -s "${ZDOTDIR:-$HOME}/.zprofile" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprofile"
 fi
 
+export NINE_USER=phil
+export MANAGEMENT_SERVER=phil
+
 [ -f /opt/boxen/env.sh ] && source /opt/boxen/env.sh
