@@ -35,7 +35,8 @@ zstyle ':prezto:load' pmodule \
   'prompt' \
   'git' \
   'ruby' \
-  'rails'
+  'rails' \
+  'syntax-highlighting'
 
 #
 # Editor
