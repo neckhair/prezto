@@ -21,5 +21,6 @@ alias lh='ls -Alh'
 
 alias sourcetree='open -a SourceTree'
 alias rrg='rake routes | grep'
+alias RET='RAILS_ENV=test'
 
 function psgrep() { ps axu | grep -v grep | grep "$@" -i --color=auto; }
