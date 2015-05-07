@@ -14,10 +14,6 @@ fi
 alias zshconfig="$EDITOR ~/.zshrc"
 alias vimconfig="$EDITOR ~/.vimrc"
 alias tlf="tail -f"
-alias mkdir='mkdir -p'
-alias l='ls'
-alias ll='ls -al'
-alias lh='ls -Alh'
 
 alias sourcetree='open -a SourceTree'
 
