@@ -21,5 +21,8 @@ alias rrg='rake routes | grep'
 alias RET='RAILS_ENV=test'
 alias bi='bundle install'
 alias be='bundle exec'
+alias rs='bundle exec rails server'
+alias rc='bundle exec rails console'
+alias rdm='bundle exec rake db:migrate'
 
 function psgrep() { ps axu | grep -v grep | grep "$@" -i --color=auto; }
