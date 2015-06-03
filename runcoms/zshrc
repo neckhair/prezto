@@ -15,7 +15,7 @@ alias zshconfig="$EDITOR ~/.zshrc"
 alias vimconfig="$EDITOR ~/.vimrc"
 alias tlf="tail -f"
 
-alias sourcetree='open -a SourceTree'
+alias st='open -a SourceTree'
 
 alias rrg='rake routes | grep'
 alias RET='RAILS_ENV=test'
@@ -24,5 +24,8 @@ alias be='bundle exec'
 alias rs='bundle exec rails server'
 alias rc='bundle exec rails console'
 alias rdm='bundle exec rake db:migrate'
+alias rspec='bundle exec rspec'
+alias rake='bundle exec rake'
+alias rails='bundle exec rails'
 
 function psgrep() { ps axu | grep -v grep | grep "$@" -i --color=auto; }
