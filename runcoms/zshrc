@@ -17,16 +17,13 @@ alias tlf="tail -f"
 
 alias st='open -a SourceTree'
 
-alias rrg='rake routes | grep'
+alias rrg='bin/rake routes | grep'
 alias RET='RAILS_ENV=test'
 alias bi='bundle install'
 alias be='bundle exec'
 alias rs='bundle exec rails server'
 alias rc='bundle exec rails console'
 alias rdm='bundle exec rake db:migrate'
-alias rspec='bundle exec rspec'
-alias rake='bundle exec rake'
-alias rails='bundle exec rails'
 
 alias ta='tmux attach -t'
 alias ts='tmux new-session -s'
