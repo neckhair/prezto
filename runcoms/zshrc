@@ -12,6 +12,12 @@ fi
 
 export GOPATH=/Users/phil/src/go
 
+[ -f /opt/boxen/env.sh ] && source /opt/boxen/env.sh
+
+# undo bad prezto config
+unsetopt CORRECT
+unalias rm
+
 # aliases
 alias zshconfig="$EDITOR ~/.zshrc"
 alias vimconfig="$EDITOR ~/.vimrc"
@@ -38,3 +44,4 @@ function psgrep() { ps axu | grep -v grep | grep "$@" -i --color=auto; }
 function goto() {
   cd ~/src/$1
 }
+export GOPATH=/Users/phil/src/go
