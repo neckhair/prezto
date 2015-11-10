@@ -10,8 +10,6 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 fi
 
-export GOPATH=/Users/phil/src/go
-
 [ -f /opt/boxen/env.sh ] && source /opt/boxen/env.sh
 
 # undo bad prezto config
@@ -44,4 +42,8 @@ function psgrep() { ps axu | grep -v grep | grep "$@" -i --color=auto; }
 function goto() {
   cd ~/src/$1
 }
+
 export GOPATH=/Users/phil/src/go
+export GOROOT=/usr/local/opt/go/libexec
+export PATH=$PATH:$GOPATH/bin
+export PATH=$PATH:$GOROOT/bin
