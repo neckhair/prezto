@@ -23,14 +23,13 @@ alias tlf="tail -f"
 
 alias st='open -a SourceTree'
 
-alias rrg='bin/rake routes | grep'
+alias rrg='rake routes | grep'
 alias RET='RAILS_ENV=test'
 alias bi='bundle install'
 alias be='bundle exec'
-alias rs='bin/rails server'
-alias rc='bin/rails console'
-alias rdm='bundle exec rake db:migrate'
-alias rsp='bin/rspec'
+alias rs='rails server'
+alias rc='rails console'
+alias i18nh='bundle exec i18n-tasks health'
 
 alias ta='tmux attach -t'
 alias ts='tmux new-session -s'
