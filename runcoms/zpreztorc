@@ -37,7 +37,8 @@ zstyle ':prezto:load' pmodule \
   'ruby' \
   'rails' \
   'tmux' \
-  'syntax-highlighting'
+  'syntax-highlighting' \
+  'autosuggestions'
 
 #
 # Autosuggestions
