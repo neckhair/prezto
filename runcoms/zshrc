@@ -39,6 +39,8 @@ alias rgp='gem push --host https://rubygems.nine.ch:8443'
 
 alias vim='nvim'
 
+alias markoff="open -a Markoff"
+
 function psgrep() { ps axu | grep -v grep | grep "$@" -i --color=auto; }
 
 # goto project
