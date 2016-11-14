@@ -41,6 +41,8 @@ alias vim='nvim'
 
 alias markoff="open -a Markoff"
 
+alias doc="docker-compose"
+
 function psgrep() { ps axu | grep -v grep | grep "$@" -i --color=auto; }
 
 # goto project
