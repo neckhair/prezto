@@ -13,4 +13,3 @@ fi
 export NINE_USER=phil
 export MANAGEMENT_SERVER=phil.nine.ch
 export SOCKET_DIR=$BOXEN_SOCKET_DIR
-export SSH_KEY_PATH="~/.ssh/id_dsa.pub"
