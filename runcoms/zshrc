@@ -55,5 +55,4 @@ export GOROOT=/usr/local/opt/go/libexec
 export PATH=$PATH:$GOPATH/bin
 export PATH=$PATH:$GOROOT/bin
 
-# added by travis gem
-[ -f /Users/phil/.travis/travis.sh ] && source /Users/phil/.travis/travis.sh
+export HOMEBREW_CASK_OPTS="--appdir=/Applications"
